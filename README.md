@@ -1,7 +1,9 @@
-<img width="2770" height="1234" alt="image" src="https://github.com/user-attachments/assets/01f1d5a1-8d07-45fd-92a3-8cafe4056a2e" />Proof of concept, so backtest architecture and everything is bad.  
-Performance/backtest results are a step function(so vol laundering), limited lookback period, limited combination tested, etc.  
-Limited linear comb of factors tested for shorter run time and overfitting. Tested year by year so allow out of sample and live testing.  
-
+Proof of concept, so data, model and backtest architecture is simple.
+- Backtest results are a step function(so vol laundering), limited lookback period, limited combination tested, etc.   
+- Limited linear combinations of factors tested to allow for shorter run time and prevent overfitting.  
+- Tested year by year, so allows out of sample and live testing.  
+- Allows for (market) beta neutral, dollar neutral, long-only, short-only, etc
+ 
 # Backtest 
 performance
 ![Long+Short](Factor_Model/backtests/factor_scores0/performance.png)
