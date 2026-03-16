@@ -3,6 +3,7 @@ Proof of concept, so very small sample size and data, model and backtest archite
 - Limited lookback period and linear combinations of factors tested to allow for shorter run time and prevent overfitting.  
 - Allows for walk-forward and live testing.  
 - Allows for (market) beta neutral, dollar neutral, long-only, short-only, etc
+[Altnernative implementation](https://github.com/soonyz06/DCF_Model_Prototype)
  
 # Backtest 
 performance
